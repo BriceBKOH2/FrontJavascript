@@ -1,0 +1,292 @@
+
+/* Html page */
+
+html {  
+    background: url("images/img_fond_section_1.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 90%;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: rgba(143, 10, 10, 0.555);
+}
+
+
+/* Dropdown Menu */
+
+.dropdown-menu:hover{
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background: rgba(51, 51, 51, 0.801);
+}
+
+.dropdown-menu .dropdown-item{
+    font-size: 1.5rem;
+    color: red;
+    text-decoration: none;
+    background: rgba(51, 51, 51, 0.801);
+    padding: 0.5rem 0.7rem;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    padding: 0.5rem 0.7rem;
+    text-decoration: underline;
+    background: rgba(10, 10, 10, 0.801);
+}
+
+.dropdown-menu a:visited{
+    text-decoration: none;
+    color: none;
+}
+
+
+/* Link */
+
+a {
+    text-decoration: none;
+    color : rgb(196, 191, 191);
+    text-shadow:
+    -1px 1px 0 rgba(155, 9, 9, 0.87),
+    1px -1px 0 rgba(155, 9, 9, 0.87),
+    -1px 1px 0 rgba(155, 9, 9, 0.87),
+    1px 1px 0 rgba(155, 9, 9, 0.87);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Text */
+
+.text_white {
+    color: white;
+    text-shadow:
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+/* Title */
+
+.title {
+    margin: 0.5rem;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip: inherit;
+    text-underline-position: below;
+}
+
+h1 {
+    color: rgba(204, 26, 26, 0.808);
+    font-size: 3.5rem;
+    text-shadow:
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h3 {
+    color: rgba(204, 26, 26, 0.808);
+    font-size: 2rem;
+    text-shadow:
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h5 {
+    color: rgba(165, 34, 34, 0.767);
+    font-size: 1.5rem;
+    text-shadow:
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* body */
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 46%
+    , rgba(0,0,0,0.6923144257703081) 65%
+    , rgba(0,0,0,0.3925945378151261) 82%);
+    margin: 0;
+}
+
+/* image */
+
+.logo {
+    max-height: 5rem;
+    width: auto;
+    margin: 2rem;
+}
+
+.menu_icon {
+    max-height: 3.5rem;
+    width: auto;
+    padding: 0.5rem;
+    border: 0.15rem solid black;
+    background: rgba(184, 2, 2, 0.699);
+    position: relative;
+}
+
+.affiche {
+    padding: 0.5em;
+    height: 40rem;
+}
+
+.google_map {
+    padding-bottom: 2rem;
+    width: 25rem ;
+    height: 20rem;
+}
+
+
+/* Button */
+
+.button_form {
+    background: rgb(189, 2, 2);
+    color: black;
+    border: 2px solid black;
+}
+
+.button_form:hover {
+    background: black;
+    color: rgb(189, 2, 2);
+    border: 2px solid rgb(189, 2, 2);
+} 
+
+
+/* Div */
+
+.newsletter {
+    font-size: 2rem;
+    background: grey;
+    width: 100%;
+    height: 10rem;
+}
+
+.copyright {
+    background: rgb(100, 99, 99);
+    width: 100%;
+}
+
+
+/* Article */
+
+article {
+    text-align: justify;
+    color : rgb(196, 191, 191);
+    text-shadow:
+    -1px 1px 0 rgba(155, 9, 9, 0.87),
+    1px -1px 0 rgba(155, 9, 9, 0.87),
+    -1px 1px 0 rgba(155, 9, 9, 0.87),
+    1px 1px 0 rgba(155, 9, 9, 0.87);
+    padding: 1rem;
+}
+
+.descriptionAffiche {
+    color : black;
+    border: 1px solid black;
+    text-shadow: none;
+    margin-bottom: 0.75em;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+
+/* liste */
+li {
+    text-align: left;
+}
+
+ol {
+    color: rgb(160, 20, 20);
+    font-size: 1.5rem;
+}
+
+
+/* Menu */
+
+.menu {
+    position: relative;
+}
+
+/* Section */
+
+.section_1 {
+    height: 20rem;
+}
+
+section {
+    margin: 2rem;
+}
+
+/* Table */
+
+table {
+    border-collapse: unset;
+    empty-cells: hide;
+}
+
+th, td {
+    padding: 1rem;
+    color: white;
+    text-shadow:
+    -0.15rem 0.15rem 0 #000,
+    0.15rem -0.15rem 0 #000,
+    -0.15rem 0.15rem 0 #000,
+    0.15rem 0.15rem 0 #000;
+}
+
+th {
+    border: 1px solid rgba(138, 3, 3, 0.993);
+    background-color: rgb(83, 13, 13);
+}
+
+td {
+    border: 1px solid rgba(170, 1, 1, 0.507);
+    background-color: rgba(83, 13, 13, 0.37);
+}
+
+/* Form */
+.row input {
+    margin: 0.1rem;
+}
+
+.row textarea {
+    width: 100%;
+    margin : 0.1rem;
+}
+
+.row .full_line {
+    width: 100%;
+}
+
+/* Input */
+
+/* Input */
+input.ticketNumber {
+    width: 2.5rem;
+}
+
+
+/* Other */
